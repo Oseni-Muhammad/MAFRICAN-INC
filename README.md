@@ -9,10 +9,10 @@
 
 ## REPOSITORY
 
-- [MAFRICAN INC.®](https://github.com/Oseni-Muhammad/ajeyo)
+- [MAFRICAN INC.®](https://github.com/Oseni-Muhammad/MAFRICAN-INC.)
 
 ## Assignment
 
-[Check Assignment](https://oseni-muhammad.github.io/ajeyo/)
+[Check Assignment](https://oseni-muhammad.github.io/MAFRICAN-INC./)
 
 ### BY Oseni-Muhammad
