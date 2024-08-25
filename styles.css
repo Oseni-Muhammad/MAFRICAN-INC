@@ -1,0 +1,203 @@
+/* Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, nav {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #555;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #666;
+}
+
+h4, h5, h6 {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* Navigation links */
+nav {
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #007bff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffde00;
+}
+
+/* Go-back button */
+button {
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3b3b;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    form, table {
+        padding: 15px;
+    }
+}
