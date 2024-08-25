@@ -9,7 +9,7 @@
 
 ## REPOSITORY
 
-- [ÁJẸ̀YÓ Food Hub](https://github.com/Oseni-Muhammad/ajeyo)
+- [MAFRICAN INC.®](https://github.com/Oseni-Muhammad/ajeyo)
 
 ## Assignment
 
